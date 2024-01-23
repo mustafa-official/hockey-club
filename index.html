@@ -579,7 +579,7 @@
             <!-- dashed border -->
             <div class="border-b border-dashed opacity-30 border-black mt-5 lg:mt-10 mb-5 lg:mb-8"></div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-3">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-x-0 gap-y-5 lg:gap-y-0 lg:gap-x-5">
                 <div style="border:1px solid rgba(19, 19, 24, 0.10);" class="col-span-1 flex flex-col gap-6 p-6 lg:p-10 rounded-2xl">
                     <div style="background: rgba(188, 237, 109, 0.10);" class="rounded-2xl px-8 pt-8 pb-10">
                         <img src="./images/group1.png" alt="">
@@ -600,7 +600,39 @@
                         
                     </div>
                 </div>
-                <div class="col-span-1 lg:col-span-2"></div>
+                <div class="col-span-1 lg:col-span-2">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-y-5 lg:gap-y-0 gap-x-5">
+                        <div class="col-span-1">
+                            <form class="flex flex-col">
+                                <label class="text-primary text-[18px] lg:text-xl font-bold" for="">Your Name</label>
+                                <input style="color: black; background: rgba(19, 19, 24, 0.03); ::placeholder{color:rgba(19, 19, 24, 0.30);}" class="p-4 lg:p-5 rounded-xl mt-4 outline-none" type="text" placeholder="Enter your full name">
+                                <label class="text-primary text-[18px] lg:text-xl font-bold mt-5" for="">Subject</label>
+                                <input style="color: black; background: rgba(19, 19, 24, 0.03); ::placeholder{color:rgba(19, 19, 24, 0.30);}" class="p-4 lg:p-5 rounded-xl mt-4 outline-none" type="text" placeholder="Enter your subject">
+                                
+
+                            </form>
+                        </div>
+                        <div class="col-span-1">
+                            <form class="flex flex-col">
+                                <label class="text-primary text-[18px] lg:text-xl font-bold" for="">Your Email</label>
+                                <input style="color: black; background: rgba(19, 19, 24, 0.03); ::placeholder{color:rgba(19, 19, 24, 0.30);}" class="p-4 lg:p-5 rounded-xl mt-4 outline-none" type="text" placeholder="Enter your email">
+                                <label class="text-primary text-[18px] lg:text-xl font-bold mt-5" for="">Phone Number</label>
+                                <input style="color: black; background: rgba(19, 19, 24, 0.03); ::placeholder{color:rgba(19, 19, 24, 0.30);}" class="p-4 lg:p-5 rounded-xl mt-4 outline-none" type="text" placeholder="Enter your phone number">
+                                
+
+                            </form>
+                        </div>
+                        
+                    </div>
+                    <form class="flex flex-col mt-5">
+                        <label class="text-primary text-[18px] lg:text-xl font-bold" for="">Message</label>
+                        <textarea style="background: rgba(19, 19, 24, 0.03); resize: none; ::placeholder{color:rgba(19, 19, 24, 0.30);}" placeholder="Write your message" class="p-4 lg:p-5 rounded-xl mt-4 outline-none h-32 lg:h-80" cols="30"></textarea>
+                        <button class="py-[14px] lg:py-4 bg-[#FF4240] rounded-xl text-white text-[16px] lg:text-xl font-bold border-none mt-5 lg:mt-8">Send Message</button>    
+                    </form>
+                    
+
+                </div>
+                
             </div>
         </section>
     </main>
