@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey Club</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- favicon -->
     <link rel="shortcut icon" href="./images/program1.png" type="image/x-icon">
     <!-- manrope font -->
@@ -51,7 +53,7 @@
                         </svg>
                     </div>
                     <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] shadow bg-[#F85559] rounded-box h-[100vh] w-52">
+                        class="menu menu-sm dropdown-content mt-3 z-[1] shadow bg-[#F85559] rounded-box w-52">
                         <li><a class="text-white text-[16px]" href="">Home</a></li>
                         <li><a class="text-white text-[16px]" href="">About</a></li>
                         <li><a class="text-white text-[16px]" href="">Pages</a></li>
@@ -83,7 +85,7 @@
         </div>
     </header>
 
-    <main class="container mx-auto px-8 mt-8 lg:mt-12"">
+    <main class="container mx-auto px-8 mt-8 lg:mt-12">
 
         <!-- banner section -->
         <section class=" relative">
@@ -579,7 +581,7 @@
             <!-- dashed border -->
             <div class="border-b border-dashed opacity-30 border-black mt-5 lg:mt-10 mb-5 lg:mb-8"></div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-x-0 gap-y-5 lg:gap-y-0 lg:gap-x-5">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-x-0 gap-y-5 lg:gap-y-0 lg:gap-x-5 items-center">
                 <div style="border:1px solid rgba(19, 19, 24, 0.10);" class="col-span-1 flex flex-col gap-6 p-6 lg:p-10 rounded-2xl">
                     <div style="background: rgba(188, 237, 109, 0.10);" class="rounded-2xl px-8 pt-8 pb-10">
                         <img src="./images/group1.png" alt="">
@@ -590,13 +592,13 @@
                     <div style="background: rgba(253, 221, 95, 0.10);" class="rounded-2xl px-8 pt-8 pb-10">
                         <img src="./images/group3.png" alt="">
                         <h3 style="color: rgba(19, 19, 24, 0.40); font-size: 16px; margin-top: 24px; margin-bottom: 5px;">Email :</h3>
-                        <p class="text-primary text-[18px] font-extrabold">mustafa1@gmail.com</p>
+                        <p class="text-primary text-[18px] font-extrabold">hockey@gmail.com </p>
                         
                     </div>
                     <div style="background: rgba(98, 156, 243, 0.10);" class="rounded-2xl px-8 pt-8 pb-10">
                         <img src="./images/group2.png" alt="">
                         <h3 style="color: rgba(19, 19, 24, 0.40); font-size: 16px; margin-top: 24px; margin-bottom: 5px;">Location :</h3>
-                        <p class="text-primary text-[18px] font-extrabold">152/1 Mohakhali Wireless Gate</p>
+                        <p class="text-primary text-[18px] font-extrabold">Mirpur-10, Dhaka</p>
                         
                     </div>
                 </div>
@@ -626,7 +628,7 @@
                     </div>
                     <form class="flex flex-col mt-5">
                         <label class="text-primary text-[18px] lg:text-xl font-bold" for="">Message</label>
-                        <textarea style="background: rgba(19, 19, 24, 0.03); resize: none; ::placeholder{color:rgba(19, 19, 24, 0.30);}" placeholder="Write your message" class="p-4 lg:p-5 rounded-xl mt-4 outline-none h-32 lg:h-80" cols="30"></textarea>
+                        <textarea style="background: rgba(19, 19, 24, 0.03); resize: none; ::placeholder{color:rgba(19, 19, 24, 0.30);}" placeholder="Write your message" class="p-4 lg:p-5 rounded-xl mt-4 outline-none h-[136px] lg:h-[340px]" cols="30"></textarea>
                         <button class="py-[14px] lg:py-4 bg-[#FF4240] rounded-xl text-white text-[16px] lg:text-xl font-bold border-none mt-5 lg:mt-8">Send Message</button>    
                     </form>
                     
@@ -634,8 +636,40 @@
                 </div>
                 
             </div>
+            <div style="background: rgba(19, 19, 24, 0.03);" class="flex flex-col justify-center items-center gap-5 mt-5 lg:mt-10 rounded-xl py-6 lg:py-7">
+                <h1 class="text-primary text-xl lg:text-2xl font-extrabold">Social Media</h1>
+                <div class="flex gap-6">
+                    <a href=""><i class="fa-brands fa-twitter text-primary text-xl"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-f text-primary text-xl"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram text-primary text-xl"></i></a>
+                    <a href=""><i class="fa-brands fa-github text-primary text-xl"></i></a>
+                </div>
+            </div>
         </section>
     </main>
+
+    <!-- footer section -->
+
+    <footer class="bg-primary">
+        <div class="container mx-auto px-8 mt-8 lg:mt-12">
+            <div class="grid grid-cols-1 lg:grid-cols-5 py-10 lg:py-20">
+                <!-- column1 -->
+                <div class="col-span-1 lg:col-span-2">
+                    <h2 class="text-white text-2xl lg:text-[28px] font-extrabold">Get In Touch</h2>
+                    <p style="color: rgba(255, 255, 255, 0.60);" class="max-w-80 font-medium mt-4 mb-5">In 1928 Walter Whiteside organized a franchise in Tulsa for the American Hockey Association (AHA).</p>
+                    <div class="flex gap-4 items-center">
+                        <img src="./icons/mail.png" alt="">
+                        <p style="color: rgba(255, 255, 255, 0.80);" class="font-medium">hockey@gmail.com</p>
+                    </div>
+                    <div class="flex gap-4 items-center mt-4">
+                        <img src="./icons/phone.png" alt="">
+                        <p style="color: rgba(255, 255, 255, 0.80);" class="font-medium">(+62) 123-321-543</p>
+                    </div>
+                </div>
+                <!-- column2 -->
+            </div>
+        </div>
+    </footer>
 
 </body>
 
